@@ -49,7 +49,7 @@ const sendVids = async function (nVids, myAd) {
 			}
 
 			let extraSend = {
-				caption: "",
+				caption: "🔥🔥🔥",
 				parse_mode: "markdown",
 				disable_web_page_preview: "true",
 			}
