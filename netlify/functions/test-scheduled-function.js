@@ -14,4 +14,5 @@ const handler = async function (event, context) {
 	}
 }
 
-exports.handler = schedule("*/60 * * * *", handler) //5  //  */15
+//exports.handler = schedule("*/60 * * * *", handler)  //5  //  */15 enviar videos cada 60 minutos
+exports.handler = schedule("0 */12 * * ?", handler) // enviar videos cada 12 horas
